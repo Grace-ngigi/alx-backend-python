@@ -10,8 +10,8 @@ async_comp = __import__('1-async_comprehension').async_comprehension
 async def measure_runtime() -> float:
     """
     Import async_comprehension
-    write a measure_runtime coroutine that will 
-    execute async_comprehension four times in parallel 
+    write a measure_runtime coroutine that will
+    execute async_comprehension four times in parallel
     using asyncio.gather.
     measure the total runtime and return it.
     """
